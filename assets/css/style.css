@@ -11,8 +11,7 @@ body {
 
 nav {
     background-color: #fff;
-    width: 100%;
-    overflow: hidden;   
+    width: 100%; 
     border: 1px solid #ccc;
 }
 
@@ -29,6 +28,39 @@ nav {
     color:#fff;
     padding: 25px;
     float: left;
+    
+     /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    
+    /* Standard syntax */    
+    animation-name: example;
+    animation-name: example; 
+    animation-duration: 4s;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
 }
 
 .navlinks {
@@ -70,6 +102,40 @@ nav {
     padding-top: 10px;
     padding-bottom: 25px;
     border-bottom: 1px solid #4aaaa5;
+    
+    position: relative;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    /* Standard syntax */
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
 }
 
 .aboutimage {
@@ -122,11 +188,38 @@ p {
     margin-top: 10px;
     padding: 7px 25px 5px 25px;
     text-align: center;
+
+    position: relative;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation: mymove 5s infinite;
+
+    /* Standard syntax */
+    animation: mymove 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+   from {left: 0px;}
+   to {left: 300px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+   from {left: 0px;}
+   to {left: 300px;}
 }
 
 .contactbutton:hover { 
     background-color: #666666;
     color: white;
+ }
+
+ .animatebutton {
+    -webkit-animation-timing-function: linear;
+ }
+
+ .animatebutton {
+    animation-timing-function: linear;
  }
 
 .portfolioimagecontainer {
