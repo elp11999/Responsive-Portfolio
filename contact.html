@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>My Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/css/resets.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <nav class="navbar cfix">
+            <div class="navbarcontent">
+                <h1 class="navheader">Michael Henderson</h1>
+                <ul class="navlinks">
+                    <li class="navlistitem"><a class="navlink" href="contact.html">Contact</a></li>
+                    <li class="navlistitem"><a class="navlink" href="portfolio.html">Portfolio</a></li>
+                    <li class="navlistitem"><a class="navlink" href="index.html">About</a></li>
+                </ul>
+            </div>
+        </nav> 
+
+        <section class="main cfix">
+            <h2 class="contactheader">Contact</h2>
+                <form class="contactform" action="mailto:msh@openconnect.com?subject=Contact Information" method="post" enctype="text/plain">
+                    <label class="contactlabel" for="name">Name</label>
+                    <input class="contactinput" type="text" id="name" name="name" placeholder="Enter your name">
+                    <label class="contactlabel" for="email">Email</label>
+                    <input class="contactinput" type="text" id="email" name="email" placeholder="example@gmail.com">
+                    <label class="contactlabel" for="contacttext">Message</label>
+                    <textarea class="contacttext" id="contacttext"  name="message" rows="10"></textarea>
+                    <button class="contactbutton" type="submit">Submit</button>
+                </form>
+        </section>    
+
+        <footer class="footer">
+            Copyright&#169;  
+        </footer>
+
+    </body>
+
+</html>
