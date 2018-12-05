@@ -1,17 +1,14 @@
 /*
  * CSS for the portfolio web site
  */
- 
- /*
 body {
     background-color: #4aaaa5;
     background-image: url(../images/gravel.png);
 }
-*/
 
 nav {
     background-color: #fff;
-    width: 100%; 
+    max-width: 100%; 
     border: 1px solid #ccc;
 }
 
@@ -30,7 +27,7 @@ nav {
     float: left;
     
      /* Safari 4.0 - 8.0 */
-    -webkit-animation-name: example;
+    -webkit-animation-name: examplex;
     -webkit-animation-duration: 4s;
     -webkit-animation-duration: 5s;
     -webkit-animation-timing-function: linear;
@@ -38,8 +35,7 @@ nav {
     -webkit-animation-iteration-count: infinite;
     
     /* Standard syntax */    
-    animation-name: example;
-    animation-name: example; 
+    animation-name: examplex;
     animation-duration: 4s;
     animation-duration: 5s;
     animation-timing-function: linear;
@@ -76,6 +72,7 @@ nav {
 .navlink {
     color: #4aaaa5; 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -105,14 +102,14 @@ nav {
     
     position: relative;
     /* Safari 4.0 - 8.0 */
-    -webkit-animation-name: example;
+    -webkit-animation-name: examplex;
     -webkit-animation-duration: 5s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-delay: 2s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     /* Standard syntax */
-    animation-name: example;
+    animation-name: examplex;
     animation-duration: 5s;
     animation-timing-function: linear;
     animation-delay: 2s;
@@ -191,10 +188,10 @@ p {
 
     position: relative;
     /* Safari 4.0 - 8.0 */
-    -webkit-animation: mymove 5s infinite;
+    -webkit-animation: mymovex 5s infinite;
 
     /* Standard syntax */
-    animation: mymove 5s infinite;
+    animation: mymovex 5s infinite;
 }
 
 /* Safari 4.0 - 8.0 */
@@ -264,17 +261,78 @@ p {
 }
 
 @media only screen and (max-width: 980px) {
-    body {
-        background-color: lightblue;
+    
+    .navheader {
+        margin-left: 35px;        
+    }
+
+    .navlinks {
+        margin-right: 35px;
+    }
+
+    .main {
+        margin-right: 250px;
+        margin-left: 35px;
     }
 }
 @media only screen and (max-width: 768px) {
-    body {
-        background-color: lightgreen;
+    
+    .navheader {
+        margin-left: 15px;        
+    }
+
+    .navlinks {
+        margin-right: 15px;
+    }
+
+    .main {
+        margin-right: 15px;
+        margin-left: 15px;
     }
 }
 @media only screen and (max-width: 640px) {
-    body {
-        background-color: orange;
+    /*
+    .main {
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    nav {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .navlinks {
+        margin-right: 10px;
+        padding-top: 15px;
+    }
+
+    .navlink {
+        font-size: 16px;
+    }
+    */
+
+    .main {
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
+    .navheader {
+        float: none;
+        display: block;        
+        margin-left: 0px;
+        text-align: center; 
+    }
+
+    .navlinks {
+        padding-top: 20px; 
+        padding-bottom: 20px;
+    }
+
+    .navlinkscontainer {
+        display: flex;
+        justify-content: center; /* align horizontal */
     }
 }
