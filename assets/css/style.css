@@ -27,7 +27,7 @@ nav {
     float: left;
     
      /* Safari 4.0 - 8.0 */
-    -webkit-animation-name: examplex;
+    -webkit-animation-name: movename;
     -webkit-animation-duration: 4s;
     -webkit-animation-duration: 5s;
     -webkit-animation-timing-function: linear;
@@ -35,7 +35,7 @@ nav {
     -webkit-animation-iteration-count: infinite;
     
     /* Standard syntax */    
-    animation-name: examplex;
+    animation-name: movename;
     animation-duration: 4s;
     animation-duration: 5s;
     animation-timing-function: linear;
@@ -44,7 +44,7 @@ nav {
 }
 
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
+@-webkit-keyframes movename {
     0%   {background-color: red;}
     25%  {background-color: yellow;}
     50%  {background-color: blue;}
@@ -52,7 +52,7 @@ nav {
 }
 
 /* Standard syntax */
-@keyframes example {
+@keyframes movename {
     0%   {background-color: red;}
     25%  {background-color: yellow;}
     50%  {background-color: blue;}
@@ -102,14 +102,15 @@ nav {
     
     position: relative;
     /* Safari 4.0 - 8.0 */
-    -webkit-animation-name: examplex;
+    -webkit-animation-name: moveheader;
     -webkit-animation-duration: 5s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-delay: 2s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
+
     /* Standard syntax */
-    animation-name: examplex;
+    animation-name: moveheader;
     animation-duration: 5s;
     animation-timing-function: linear;
     animation-delay: 2s;
@@ -118,21 +119,21 @@ nav {
 }
 
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
+@-webkit-keyframes moveheader {
     0%   {background-color:red; left:0px; top:0px;}
     25%  {background-color:yellow; left:200px; top:0px;}
     50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+    75%  {background-color:green; left:200px; top:300px;}
+    100% {background-color:red; left:0px; top:300px;}
 }
 
 /* Standard syntax */
-@keyframes example {
+@keyframes moveheader {
     0%   {background-color:red; left:0px; top:0px;}
     25%  {background-color:yellow; left:200px; top:0px;}
     50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+    75%  {background-color:green; left:200px; top:300px;}
+    100% {background-color:red; left:0px; top:300px;}
 }
 
 .aboutimage {
@@ -188,20 +189,20 @@ p {
 
     position: relative;
     /* Safari 4.0 - 8.0 */
-    -webkit-animation: mymovex 5s infinite;
+    -webkit-animation: movebutton 5s infinite;
 
     /* Standard syntax */
-    animation: mymovex 5s infinite;
+    animation: movebutton 5s infinite;
 }
 
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes mymove {
+@-webkit-keyframes movebutton {
    from {left: 0px;}
    to {left: 300px;}
 }
 
 /* Standard syntax */
-@keyframes mymove {
+@keyframes movebutton {
    from {left: 0px;}
    to {left: 300px;}
 }
@@ -209,14 +210,6 @@ p {
 .contactbutton:hover { 
     background-color: #666666;
     color: white;
- }
-
- .animatebutton {
-    -webkit-animation-timing-function: linear;
- }
-
- .animatebutton {
-    animation-timing-function: linear;
  }
 
 .portfolioimagecontainer {
@@ -275,6 +268,7 @@ p {
         margin-left: 35px;
     }
 }
+
 @media only screen and (max-width: 768px) {
     
     .navheader {
@@ -290,28 +284,8 @@ p {
         margin-left: 15px;
     }
 }
+
 @media only screen and (max-width: 640px) {
-    /*
-    .main {
-        margin-top: 5px;
-        margin-right: 5px;
-        margin-left: 5px;
-    }
-
-    nav {
-        margin-right: 5px;
-        margin-left: 5px;
-    }
-
-    .navlinks {
-        margin-right: 10px;
-        padding-top: 15px;
-    }
-
-    .navlink {
-        font-size: 16px;
-    }
-    */
 
     .main {
         margin-top: 15px;
