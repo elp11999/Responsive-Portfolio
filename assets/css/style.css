@@ -27,7 +27,7 @@ nav {
     float: left;
     
      /* Safari 4.0 - 8.0 */
-    -webkit-animation-name: movename;
+    -webkit-animation-name: movenamex;
     -webkit-animation-duration: 4s;
     -webkit-animation-duration: 5s;
     -webkit-animation-timing-function: linear;
@@ -35,7 +35,7 @@ nav {
     -webkit-animation-iteration-count: infinite;
     
     /* Standard syntax */    
-    animation-name: movename;
+    animation-name: movenamex;
     animation-duration: 4s;
     animation-duration: 5s;
     animation-timing-function: linear;
@@ -102,7 +102,7 @@ nav {
     
     position: relative;
     /* Safari 4.0 - 8.0 */
-    -webkit-animation-name: moveheader;
+    -webkit-animation-name: moveheaderx;
     -webkit-animation-duration: 5s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-delay: 2s;
@@ -110,7 +110,7 @@ nav {
     -webkit-animation-direction: alternate;
 
     /* Standard syntax */
-    animation-name: moveheader;
+    animation-name: moveheaderx;
     animation-duration: 5s;
     animation-timing-function: linear;
     animation-delay: 2s;
@@ -189,10 +189,10 @@ p {
 
     position: relative;
     /* Safari 4.0 - 8.0 */
-    -webkit-animation: movebutton 5s infinite;
+    -webkit-animation: movebuttonx 5s infinite;
 
     /* Standard syntax */
-    animation: movebutton 5s infinite;
+    animation: movebuttonx 5s infinite;
 }
 
 /* Safari 4.0 - 8.0 */
