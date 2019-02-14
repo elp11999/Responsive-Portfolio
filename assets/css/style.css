@@ -253,6 +253,10 @@ p {
     bottom: 0;
 }
 
+.foottext {
+    color: #fff;
+}
+
 @media only screen and (max-width: 980px) {
     
     .navheader {
