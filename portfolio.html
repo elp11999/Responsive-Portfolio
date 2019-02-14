@@ -5,27 +5,34 @@
     <head>
         <meta charset="utf-8">
         <title>My Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="assets/css/resets.css">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </head>
 
-    <body>        
-        <nav class="navbar cfix">
-            <div class="navbarcontent">
-                <h1 class="navheader">Michael Henderson</h1>
-                <div class="navlinkscontainer">
-                    <ul class="navlinks">
-                        <li class="navlistitem"><a class="navlink" href="contact.html">Contact</a></li>
-                        <li class="navlistitem"><a class="navlink" href="resume.pdf">Resume</a></li>
-                        <li class="navlistitem"><a class="navlink" href="https://github.com/elp11999">GitHub</a></li>
-                        <li class="navlistitem"><a class="navlink" href="https://linkedin.com/in/michael-henderson-aa64b916b">LinkedIn</a></li>
-                        <li class="navlistitem"><a class="navlink" href="portfolio.html">Portfolio</a></li>
-                        <li class="navlistitem"><a class="navlink" href="index.html">About</a></li>
+    <body> 
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-lignt">
+                    <h1 class="navheader">Michael Henderson</h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="resume.pdf">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://github.com/elp11999">GitHub</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://linkedin.com/in/michael-henderson-aa64b916b">LinkedIn</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
-            </div>
-        </nav> 
+            </nav>
+        </header> 
 
         <section class="main cfix">
             <h2 class="portfolioheader">Portfolio</h2>
@@ -33,49 +40,43 @@
             <div class="portfolioimageline">
                 <div class="portfolioimagecontainer">
                     <a href="https://elp11999.github.io/Word-Guess-Game/">
-                        <img class="portfolioimage" src="assets/images/hangman.jpg" alt="hangman" height="175" width="225" >
+                        <img class="portfolioimage" src="assets/images/hangman.jpg" alt="hangman" height="175" width="175" >
                     </a>
                     <span class="portfolioimagetext">Hangman Game.</span>
                 </div>
                 <div class="portfolioimagecontainer">
                     <a href="https://elp11999.github.io/Crystal-Guess-Game/">
-                        <img class="portfolioimage" src="assets/images/crystal.jpg" alt="crystal" height="175" width="225" >
+                        <img class="portfolioimage" src="assets/images/crystal.jpg" alt="crystal" height="175" width="175" >
                     </a>
                     <span class="portfolioimagetext">Crystal Game.</span>
                 </div>
                 <div class="portfolioimagecontainer">
                     <a href="https://elp11999.github.io/unit-4-game/">
-                        <img class="portfolioimage" src="assets/images/starwars.jpg" alt="starwars" height="175" width="225" >
+                        <img class="portfolioimage" src="assets/images/starwars.jpg" alt="starwars" height="175" width="175" >
                     </a>
                     <span class="portfolioimagetext">StarWars Game.</span>
                 </div>
-            </div>
-    
-            <div class="portfolioimageline">
                 <div class="portfolioimagecontainer">
                     <a href="https://elp11999.github.io/TriviaGame/">
-                        <img class="portfolioimage" src="assets/images/trivia.jpg" alt="trivia" height="175" width="225" >
+                        <img class="portfolioimage" src="assets/images/trivia.jpg" alt="trivia" height="175" width="175" >
                     </a>
                     <span class="portfolioimagetext">Trivia Game.</span>
                 </div>
                 <div class="portfolioimagecontainer">
                     <a href="https://elp11999.github.io/GifTastic/">
-                        <img class="portfolioimage" src="assets/images/giphy.png" alt="giphy" height="175" width="225" >
+                        <img class="portfolioimage" src="assets/images/giphy.png" alt="giphy" height="175" width="175" >
                     </a>
                     <span class="portfolioimagetext">Giphy Searches.</span>
                 </div>
                 <div class="portfolioimagecontainer">
                     <a href="https://elp11999.github.io/TrainScheduler/">
-                        <img class="portfolioimage" src="assets/images/amtrak.png" alt="trivia" height="175" width="225" >
+                        <img class="portfolioimage" src="assets/images/amtrak.png" alt="trivia" height="175" width="175" >
                     </a>
                     <span class="portfolioimagetext">Train Scheduler.</span>
                 </div>
-            </div>
-    
-            <div class="portfolioimageline">
                 <div class="portfolioimagecontainer">
                     <a href="https://alxcur.github.io/project-1/">
-                        <img class="portfolioimage" src="assets/images/rainplay.jpg" alt="rainplay" height="175" width="225" >
+                        <img class="portfolioimage" src="assets/images/rainplay.jpg" alt="rainplay" height="175" width="175" >
                     </a>
                     <span class="portfolioimagetext">RainPlay.</span>
                 </div>
