@@ -231,7 +231,7 @@ p {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
     background-color: #4aaaa5;
-    width: 175px;
+    width: 150px;
     text-align: center;
     padding: 15px 0;   
     position: absolute;
@@ -255,62 +255,4 @@ p {
 
 .foottext {
     color: #fff;
-}
-
-@media only screen and (max-width: 980px) {
-    
-    .navheader {
-        margin-left: 35px;        
-    }
-
-    .navlinks {
-        margin-right: 35px;
-    }
-
-    .main {
-        margin-right: 35px;
-        margin-left: 35px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    
-    .navheader {
-        margin-left: 15px;        
-    }
-
-    .navlinks {
-        margin-right: 15px;
-    }
-
-    .main {
-        margin-right: 15px;
-        margin-left: 15px;
-    }
-}
-
-@media only screen and (max-width: 640px) {
-
-    .main {
-        margin-top: 15px;
-        margin-right: 15px;
-        margin-left: 15px;
-    }
-    
-    .navheader {
-        float: none;
-        display: block;        
-        margin-left: 0px;
-        text-align: center; 
-    }
-
-    .navlinks {
-        padding-top: 20px; 
-        padding-bottom: 20px;
-    }
-
-    .navlinkscontainer {
-        display: flex;
-        justify-content: center; /* align horizontal */
-    }
 }
