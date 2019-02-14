@@ -274,5 +274,11 @@ p {
 
     .portfolioimage {        
         margin-right: 20px;
+        height: 150px;
+        width: 150px;
+    }
+
+    .portfolioimagetext {
+        width: 150px;
     }
 }
