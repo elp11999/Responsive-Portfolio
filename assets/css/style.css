@@ -256,3 +256,19 @@ p {
 .foottext {
     color: #fff;
 }
+
+@media only screen and (max-width: 640px) {
+
+    .main {
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
+    .navheader {
+        display: block;
+        width: 100%;        
+        margin-left: 0px;
+        text-align: center;
+    }
+}
