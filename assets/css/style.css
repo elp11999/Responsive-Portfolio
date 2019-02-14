@@ -271,4 +271,8 @@ p {
         margin-left: 0px;
         text-align: center;
     }
+
+    .portfolioimage {        
+        margin-right: 20px;
+    }
 }
