@@ -274,12 +274,12 @@ p {
 
     .portfolioimage {        
         margin-right: 20px;
-        height: 100px;
-        width: 100px;
+        height: 110px;
+        width: 110px;
     }
 
     .portfolioimagetext {
-        width: 100px;
+        width: 110px;
         padding: 5px 0;  
         bottom: 5px;
     }
